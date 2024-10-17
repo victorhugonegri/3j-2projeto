@@ -48,6 +48,7 @@ span{
 }
 footer{
     font-size: 30px;
+    font-family: "Gigi";
     text-align: center;
     padding: 10px;
     background-color: var(--cor-primaria);
