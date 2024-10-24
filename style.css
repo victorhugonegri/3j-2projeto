@@ -1,64 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root{
     --cor-de-fundo: #09284d;
     --cor-primaria: #E6D9A2;
-    --cor-secundaria: #CB80AB;
-    --fonte: "Nunito Sans", sans-serif;
+    --cor-secundaria:#CB80AB;
+    --fonte: "Playfair Display", serif;
 }
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color:var(--cor-de-fundo);
-    color:var(--cor-primaria);
+    background-color: var(--cor-de-fundo);  
+    color: var(--cor-primaria);
     font-family: var(--fonte);
-    width: 100vw;
     height: 100vh;
     margin: 0;
 }
+
 header{
     background-color: var(--cor-primaria);
+    text-align: center;
 }
+
 h1{
     font-size: 2rem;
-    text-align: center;
     color: var(--cor-de-fundo);
     font-weight: 700;
 }
+
 nav{
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
+
 nav a{
     text-decoration: none;
     color: var(--cor-de-fundo);
     margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
 }
+
 nav a:hover{
     text-decoration: underline;
     transform: scale(0.9);
-    transition: transform 0.5s;
+    transition: transform is;
 }
+
 span{
-    color: var(--cor-secundaria);
-    font-style: bold;
+   color: var(--cor-secundaria);
+   font-weight: bold;
 }
+
 footer{
-    font-size: 30px;
-    font-family: "Ink Free";
     text-align: center;
-    padding: 10px;
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
-    transition: 0.5s;
 }
+
+
 .graficos-container{
     margin: 5rem;
 }
-.grafico-texto{
+
+.graficos-texto{
     font-size: 1.3rem;
     border: var(--cor-secundaria) solid 2px;
     padding: 2rem;
